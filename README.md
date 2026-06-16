@@ -22,10 +22,10 @@ local rootPart = character:WaitForChild("HumanoidRootPart")
 
 -- Конфигурация скрипта
 local settings = {
-    autoFarm = false,
-    autoQuest = false,
+    autoFarm = true,
+    autoQuest = true,
     autoStats = false,
-    autoBoss = false,
+    autoBoss = true,
     farmDistance = 50,         -- дистанция поиска мобов
     attackDelay = 0.25,        -- задержка между атаками
     questDistance = 30,        -- дистанция до NPC с квестами
